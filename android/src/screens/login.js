@@ -48,7 +48,7 @@ export default class Login extends Component
     // componentDidMount()
     // {
     //     const firebaseConfig = {
-    //         apiKey: "AIzaSyBd4iHjcQvHmhC076UOhweNqFXn3R6_spk",
+    //         apiKey: "AIzaSyBChAa4SfHRrcxxJ8OGPiW3-RwD9aAMaLQ",
     //         authDomain: "clothly-b4594.firebaseapp.com",
     //         projectId: "clothly-b4594",
     //         storageBucket: "clothly-b4594.appspot.com",
