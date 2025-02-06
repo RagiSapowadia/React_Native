@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {View, Text, Image, TouchableOpacity, TextInput, ToastAndroid, BackHandler, Animated,StyleSheet} from 'react-native';
 import firebase  from "@react-native-firebase/app";
 import auth  from "@react-native-firebase/auth";
+import { GOOGLE_API_KEY } from '@env';
 
 export default class Login extends Component 
 {
@@ -41,7 +42,7 @@ export default class Login extends Component
     
     componentDidMount() {
         const firebaseConfig = {
-            apiKey: "AIzaSyBChAa4SfHRrcxxJ8OGPiW3-RwD9aAMaLQ",
+            apiKey: GOOGLE_API_KEY,
             authDomain: "clothly-b4594.firebaseapp.com",
             projectId: "clothly-b4594",
             storageBucket: "clothly-b4594.appspot.com",
